@@ -2,6 +2,14 @@ import type { Route } from "../model/model";
 
 export function getRoutes(): Route[] {
     return [{
+        name: 'Starter',
+        key: 'starter',
+        encounters: [
+            { name: 'Sprigatito', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Fuecoco', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Quaxly', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+        ]},
+        {
         name: 'South Province {Area One}',
         key: 'south_area_one',
         encounters: [

@@ -6,6 +6,8 @@ export function getRandomEncounter(selectedRoute: Route, game: Game, includeWate
         return '';
     }
 
+    console.log(`selected route: ${JSON.stringify(selectedRoute)}`)
+
     const possibleEncounters: Pokemon [] = selectedRoute.encounters.filter((possibleEncounter) => {
         if (game === Game.SCARLET) {
             return !possibleEncounter.isVioletExclusive;
@@ -16,5 +18,5 @@ export function getRandomEncounter(selectedRoute: Route, game: Game, includeWate
         return [];
     });
 
-    return possibleEncounters[Math.floor(Math.random()) * possibleEncounters.length].name;
+    return possibleEncounters[Math.floor(Math.random() * possibleEncounters.length)].name;
   }

@@ -37,6 +37,7 @@
     on:change={() => updateEncounter(selectedRouteKey)}
     name="routes"
   >
+    <option>Select Route</option>
     {#each routes as route}
       <option value={route.key}>{route.name}</option>
     {/each}
