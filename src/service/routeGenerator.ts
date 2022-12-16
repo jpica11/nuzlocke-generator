@@ -10,7 +10,7 @@ export function getRoutes(): Route[] {
             { name: 'Quaxly', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
         ]},
         {
-        name: 'South Province {Area One}',
+        name: 'South Province (Area One)',
         key: 'south_area_one',
         encounters: [
             { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -50,7 +50,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'South Province {Area Two}',
+        name: 'South Province (Area Two)',
         key: 'south_area_two',
         encounters: [
             { name: 'Mareep', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -85,7 +85,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'South Province {Area Three}',
+        name: 'South Province (Area Three)',
         key: 'south_area_three',
         encounters: [
             { name: 'Growlithe', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -142,7 +142,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'South Province {Area Four}',
+        name: 'South Province (Area Four)',
         key: 'south_area_four',
         encounters: [
             { name: 'Pikachu', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -209,7 +209,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'South Province {Area Five}',
+        name: 'South Province (Area Five)',
         key: 'south_area_five',
         encounters: [
             { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -288,7 +288,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'South Province {Area Six}',
+        name: 'South Province (Area Six)',
         key: 'south_area_six',
         encounters: [
             { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -341,7 +341,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'East Province {Area One}',
+        name: 'East Province (Area One)',
         key: 'east_one',
         encounters: [
             { name: 'Pikachu', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -387,7 +387,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'East Province {Area Two}',
+        name: 'East Province (Area Two)',
         key: 'east_two',
         encounters: [
             { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -457,7 +457,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'East Province {Area Three}',
+        name: 'East Province (Area Three)',
         key: 'east_three',
         encounters: [
             { name: 'Diglett', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -516,7 +516,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'North Province {Area One}',
+        name: 'North Province (Area One)',
         key: 'north_one',
         encounters: [
             { name: 'Wigglytuff', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -587,7 +587,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'North Province {Area Two}',
+        name: 'North Province (Area Two)',
         key: 'north_two',
         encounters: [
             { name: 'Venomoth', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -649,7 +649,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'North Province {Area Three}',
+        name: 'North Province (Area Three)',
         key: 'north_three',
         encounters: [
             { name: 'Dugtrio', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -692,7 +692,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'West Province {Area One}',
+        name: 'West Province (Area One)',
         key: 'west_one',
         encounters: [
             { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
@@ -745,7 +745,7 @@ export function getRoutes(): Route[] {
         ]
     },
     {
-        name: 'West Province {Area Two}',
+        name: 'West Province (Area Two)',
         key: 'west_two',
         encounters: [
             { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
