@@ -6,8 +6,8 @@
   let selectedRouteKey: string;
   let routes: Route[] = [];
   let encounter: string = "";
-  let includeWater: boolean = false;
   let game: Game;
+  let showRerollButton: boolean = false;
 
   routes = getRoutes();
 
@@ -16,7 +16,8 @@
       (route) => route.key === selectedRouteKey
     );
 
-    encounter = getRandomEncounter(selectedRoute, game, includeWater);
+    encounter = getRandomEncounter(selectedRoute, game);
+    showRerollButton = true;
   }
 </script>
 
@@ -43,8 +44,32 @@
     {/each}
   </select>
 
-  <h4>Route encounter: {encounter}</h4>
+  <div class="encounter-row">
+    <h4>Route encounter: {encounter}</h4>
+    {#if showRerollButton}
+      <button
+        class="reroll-button"
+        on:click={() => updateEncounter(selectedRouteKey)}
+        >Re-roll encounter</button
+      >
+    {/if}
+  </div>
 </main>
 
 <style>
+  .encounter-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1%;
+    gap: 3rem;
+  }
+
+  .reroll-button {
+    background-color: white;
+    color: #242424;
+    height: 3rem;
+    align-self: center;
+    font-weight: bold;
+  }
 </style>

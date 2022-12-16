@@ -1,7 +1,7 @@
 import type { Pokemon, Route } from "../model/model";
 import { Game } from "../model/model";
 
-export function getRandomEncounter(selectedRoute: Route, game: Game, includeWater: boolean): string {
+export function getRandomEncounter(selectedRoute: Route, game: Game): string {
     if (!selectedRoute) {
         return '';
     }
