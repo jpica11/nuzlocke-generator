@@ -14,12 +14,6 @@ export function getRandomEncounter(selectedRoute: Route, game: Game, includeWate
         }
 
         return [];
-    }).filter((possibleEncounter) => {
-        if (!includeWater) {
-            return !possibleEncounter.isWaterEncounter;
-        }
-
-        return [];
     });
 
     return possibleEncounters[Math.floor(Math.random()) * possibleEncounters.length].name;

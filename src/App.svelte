@@ -42,10 +42,6 @@
     {/each}
   </select>
 
-  <label>
-    Include water Encounters?
-    <input type="checkbox" bind:checked={includeWater} />
-  </label>
   <h4>Route encounter: {encounter}</h4>
 </main>
 
