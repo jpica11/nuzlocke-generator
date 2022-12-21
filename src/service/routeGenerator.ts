@@ -10,6 +10,18 @@ export function getRoutes(): Route[] {
             { name: 'Quaxly', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
         ]},
         {
+        name: 'Poco Path',
+        key: 'poco_path',
+        encounters: [
+            { name: 'Hoppip', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Fletchling', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Scatterbug', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },            { name: 'Hoppip', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Tarountula', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Lechonk', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Pawmi', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Houndour', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+        ]},
+        {
         name: 'South Province (Area One)',
         key: 'south_area_one',
         encounters: [
