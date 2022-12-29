@@ -22,6 +22,17 @@ export function getRoutes(): Route[] {
             { name: 'Houndour', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
         ]},
         {
+        name: 'Inlet Grotto',
+        key: 'inlet_grotto',
+        encounters: [
+            { name: 'Diglett', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Houndour', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Paawniard', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Yungoos', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Gumshoos', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+        ]},
+        {
         name: 'South Province (Area One)',
         key: 'south_area_one',
         encounters: [
@@ -1038,6 +1049,48 @@ export function getRoutes(): Route[] {
             { name: 'Espathra', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
             { name: 'Tinkatink', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
             { name: 'Orthworm', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false }
+        ]
+    },
+        {
+        name: 'Tagtree Thicket',
+        key: 'tagtree_thicket',
+        encounters: [
+            { name: 'Venonat', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Venomoth', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Psyduck', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Magikarp', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Vaporeon', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Sunflora', isScarletExclusive: true, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Murkrow', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Misdreavus', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Pineco', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Dunsparce', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Barboach', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Whiscash', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Combee', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Buizel', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Drifloon', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Zorua', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Foongus', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Gumshoos', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Fomantis', isScarletExclusive: true, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Oranguru', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Passimian', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Komala', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Mimikyu', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Greedent', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Applin', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Hattrem', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Impidimp', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Morgrem', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Oinkologne', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Spidops', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Dolliv', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Charcadet', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Bellibolt', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Shroodle', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Grafaiai', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false },
+            { name: 'Toedscool', isScarletExclusive: false, isVioletExclusive: false, probability: 0, isWaterEncounter: false }
         ]
     },
     {
